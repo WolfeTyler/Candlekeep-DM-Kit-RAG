@@ -68,16 +68,29 @@ By using these frameworks, the project achieves:
 
 ```mermaid
 flowchart TD
-    A[Config & Toggles] --> B[WebBaseLoader (allowlist)]
-    A --> C[Local Gazetteer .md]
-    B --> D[RecursiveCharacterTextSplitter]
+    A[Config & Toggles]
+    B[WebBaseLoader (allowlist)]
+    C[Local Gazetteer .md]
+    D[RecursiveCharacterTextSplitter]
+    E[HuggingFace Embeddings]
+    F{Chroma Vector Store}
+    G[Retriever (MMR/Similarity)]
+    H[In-Memory Vector Store]
+    I[Answer Synthesis + Citations]
+    J[Styled Output Panels]
+    K[SQLite Rules DB]
+    L[DM Prep Blocks (Quest, NPC, Encounter, Treasure)]
+
+    A --> B
+    A --> C
+    B --> D
     C --> D
-    D --> E[HuggingFace Embeddings]
-    E --> F{Chroma Vector Store}
-    F -->|Success| G[Retriever (MMR/Similarity)]
-    F -->|Fail| H[In-Memory Vector Store]
+    D --> E
+    E --> F
+    F -->|Success| G
+    F -->|Fail| H
     H --> G
-    G --> I[Answer Synthesis + Citations]
-    I --> J[Styled Output Panels]
-    J --> K[SQLite Rules DB]
-    K --> L[DM Prep Blocks (Quest, NPC, Encounter, Treasure)]
+    G --> I
+    I --> J
+    J --> K
+    K --> L
