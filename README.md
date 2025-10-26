@@ -14,6 +14,10 @@ The project is implemented as a **single executable Jupyter Notebook** (`Candlek
 
 ---
 
+<p align="center">
+  <img src="Notebook_Sample.png" width="800" alt="Candlekeep DM Kit notebook sample output">
+</p>
+
 ## Problem Statement
 
 Dungeon Masters often face the same challenge:  
