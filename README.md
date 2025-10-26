@@ -1,7 +1,7 @@
 # 🕯️ Candlekeep DM Kit  
 ### A Retrieval-Augmented Dungeon Master Assistant for the Forgotten Realms  
 
-> *“When the libraries of Candlekeep meet the art of machine intelligence, Dungeon Masters gain a lorekeeper of their own.”*  
+> *“When the libraries of Candlekeep meet the capabilities of machine learning, Dungeon Masters gain a lorekeeper of their own.”*  
 
 ---
 
