@@ -66,6 +66,14 @@ By using these frameworks, the project achieves:
   <img src="Notebook_Sample.png" width="800" alt="Candlekeep DM Kit notebook layout">
 </p>
 
+### Example Notebook Output
+
+<p align="center">
+  <img src="Demo_Lore_QA.png" width="800" alt="Candlekeep DM Kit notebook sample output">
+</p>
+
+<p align="center"><i>Figure 1: End-to-end demo of the Candlekeep DM Kit running RAG-based lore retrieval and citation.</i></p>
+
 ---
 
 ### System Flowchart
@@ -99,11 +107,3 @@ flowchart TD
     J --> K
     K --> L
 
-
-### Example Notebook Output
-
-<p align="center">
-  <img src="Demo_Lore_QA.png" width="800" alt="Candlekeep DM Kit notebook sample output">
-</p>
-
-<p align="center"><i>Figure 1: End-to-end demo of the Candlekeep DM Kit running RAG-based lore retrieval and citation.</i></p>
