@@ -14,10 +14,6 @@ The project is implemented as a **single executable Jupyter Notebook** (`Candlek
 
 ---
 
-<p align="center">
-  <img src="Notebook_Sample.png" width="800" alt="Candlekeep DM Kit notebook sample output">
-</p>
-
 ## Problem Statement
 
 Dungeon Masters often face the same challenge:  
@@ -65,6 +61,10 @@ By using these frameworks, the project achieves:
 5. **Retrieval:** Queries are run via **Max Marginal Relevance (MMR)** or **similarity search** to find relevant passages.  
 6. **Answering:** Retrieved chunks are summarized and cited in rich Markdown panels for clarity.  
 7. **DM Prep:** SQLite-based generators output setting-aligned **Quest**, **NPC**, **Encounter**, and **Treasure** stubs for session planning.
+
+<p align="center">
+  <img src="Notebook_Sample.png" width="800" alt="Candlekeep DM Kit notebook sample output">
+</p>
 
 ---
 
