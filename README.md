@@ -12,6 +12,12 @@ It combines **Retrieval-Augmented Generation (RAG)**, **structured world data**,
 
 The project is implemented as a **single executable Jupyter Notebook** (`Candlekeep_DM_Kit_Demo_v3.ipynb`) and demonstrates a full **end-to-end LangChain pipeline** with automatic fallbacks, modular layers, and real web-based data retrieval.
 
+<p align="center">
+  <img src="https://static.wikia.nocookie.net/forgottenrealms/images/5/51/Candlekeep2.jpg/revision/latest?cb=20140309155347" 
+       width="700" 
+       alt="Candlekeep illustration from the Forgotten Realms wiki">
+</p>
+
 ---
 
 ## Problem Statement
