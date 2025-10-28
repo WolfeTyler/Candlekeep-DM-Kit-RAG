@@ -77,7 +77,8 @@ By using these frameworks, the project achieves:
 ```bash
 git clone https://github.com/WolfeTyler/Candlekeep-DM-Kit-RAG.git  
 cd Candlekeep-DM-Kit-RAG  
-jupyter notebook Candlekeep_DM_Kit_Demo_v3.ipynb  
+jupyter notebook Candlekeep_DM_Kit_Demo_v3.ipynb
+```
 
 ### Example Notebook Output
 
