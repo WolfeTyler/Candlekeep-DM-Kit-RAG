@@ -72,6 +72,13 @@ By using these frameworks, the project achieves:
   <img src="Notebook_Sample.png" width="800" alt="Candlekeep DM Kit notebook layout">
 </p>
 
+### Quick Setup
+
+```bash
+git clone https://github.com/WolfeTyler/Candlekeep-DM-Kit-RAG.git  
+cd Candlekeep-DM-Kit-RAG  
+jupyter notebook Candlekeep_DM_Kit_Demo_v3.ipynb  
+
 ### Example Notebook Output
 
 <p align="center">
